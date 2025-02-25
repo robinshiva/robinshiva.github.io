@@ -155,3 +155,17 @@ p {
     background-color: #316272;
     transform: translateY(-2px);
 }
+
+@media (max-width: 800px) {
+    .two-col {
+        grid-template-columns: 1fr;
+    }
+
+    .one-two-col {
+        grid-template-columns: 1fr;
+    }
+
+    .two-one-col {
+        grid-template-columns: 1fr;
+    }
+}
