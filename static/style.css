@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+
+header {
+    background-color: #2A2B2A;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0px 30px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+header nav a:hover {
+    background-color: #6f716f;
+}
+
+body {
+    margin: 0;
+    background-color: #ecebe4;
+    font-family: Roboto, serif;
+}
+
+#top-nav {
+    flex-wrap: wrap;
+}
+
+.nav-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+    background-color: #F7F6F3;
+    max-width: 700px;
+    padding: 25px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+
+.col-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.two-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.one-two-col {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.two-one-col {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.img-s {
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.img-m {
+    width: 70%;
+    border-radius: 5px;
+    object-fit: cover;
+    grid-column: span 1;
+}
+
+.img-l {
+    width: 90%;
+    border-radius: 5px;
+    object-fit: cover;
+    grid-column: span 1;
+}
+
+.border {
+    border-color: #2A2B2A;
+    border: 1px solid;
+}
+
+.link-button {
+    background-color: #43879D;
+    color: white;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.link-button:hover {
+    color: white;
+    background-color: #316272;
+    transform: translateY(-2px);
+}
